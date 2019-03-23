@@ -1,5 +1,4 @@
 const moment = require("moment");
-const cheerio = require("cheerio");
 const fetch = require("node-fetch");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
