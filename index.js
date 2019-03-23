@@ -24,7 +24,7 @@ function getDatesBetween(start, end) {
   return datesBetween;
 }
 
-function getStartingData() {
+function getUrlAndDates() {
   let datesBetween = getDatesBetween(startingDate, endingDate);
   let startingData = datesBetween.map(date => {
     let url = getUrl(date);
@@ -36,23 +36,22 @@ function getStartingData() {
   return startingData;  
 }
 
-function getTracklist(responseBody) {
+function parseTrackListFromResponseBody(responseBody) {
   const dom = new JSDOM(responseBody);
-    const doc = dom.window.document;
-    
-    let trackElements = doc.querySelectorAll("section.segment article")
-    let tracklist = [];
-    trackElements.forEach(track => {
-      let title = track.querySelector("h3").textContent
-      let artist = track.textContent.replace(title, "").trim()
+  const doc = dom.window.document;
+  let trackElements = doc.querySelectorAll("section.segment article")  
+  let tracklist = [];
+  trackElements.forEach(track => {
+    let title = track.querySelector("h3").textContent
+    let artist = track.textContent.replace(title, "").trim()
 
-      tracklist.push({
-        title: title,
-        artist: artist
-      })
+    tracklist.push({
+      title: title,
+      artist: artist
     })
+  })
 
-    return tracklist;
+  return tracklist;
 }
 
 function getMp3Url(programDate) {
@@ -63,32 +62,57 @@ function getMp3Url(programDate) {
   return `https://download.stream.publicradio.org/minnesota/the_current/programs/${year}/${month}/${day}/pos_ruining_the_current_${year}${month}${day}_128.mp3`
 }
 
-function getTrackList(url, callback) {
-  fetch(url)
-    .then(res => res.text())
-    .then(body => {
-      let tracklist = getTracklist(body)
+async function fetchTrackListFromUrl(url) {
+  try {
+    let response = await fetch(url)
+    let body = await response.text()
+    let tracklist = parseTrackListFromResponseBody(body)
+    
+    return tracklist;
 
-      callback(tracklist)
-    });
+  } catch (e) {
+    throw { 
+      url: url, 
+      message: e
+    };
+  }
+}
+
+async function getTrackListAndMp3Url(startingData) {
+  try {
+      let tracklist = await fetchTrackListFromUrl(startingData.url);
+      if(tracklist.length == 0) {
+        throw {
+          url: startingData.url,
+          error: "Tracklist is empty"
+        }
+      }
+
+      let data = {
+        url: startingData.url,
+        date: startingData.date,
+        tracklist: tracklist,
+        mp3Url: getMp3Url(startingData.date)
+      };
+
+      return data
+    } catch (error) {
+      let data = {
+        url: error.url,
+        error: error.message
+      };
+
+      return data
+    };
 }
 
 
-let startingData = getStartingData()
+let startingData = getUrlAndDates()
 
+async function main() {
+  let shorterStartingData = startingData
+  let moreData = await Promise.all(shorterStartingData.map(startingData => getTrackListAndMp3Url(startingData) ));
+  console.log(require('util').inspect(moreData, true, 10))
+}
 
-// perhaps introduce some async await stuff here
-// I want to make these calls in parallel and wait for them all to finish
-let shorterstartingData = startingData.slice(0, 4);
-let moreData = []
-shorterStartingData.forEach(startingData => {
-  getTrackList(startingData.url, (tracklist) => {
-    let data = {
-      url: startingData.url,
-      date: startingData.date,
-      tracklist: tracklist,
-      mp3Url: getMp3Url(startingData.date)
-    };
-    moreData.push(data);
-  });
-});
+main()
