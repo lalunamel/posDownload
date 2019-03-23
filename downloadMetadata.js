@@ -3,6 +3,7 @@ const cheerio = require("cheerio");
 const fetch = require("node-fetch");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+const fs = require('fs');
 
 let startingDate = moment("2013-03-30");
 let endingDate = moment("2015-04-25");
@@ -64,8 +65,10 @@ function getMp3Url(programDate) {
 
 async function fetchTrackListFromUrl(url) {
   try {
+    console.log("fetching " + url)
     let response = await fetch(url)
     let body = await response.text()
+    console.log("parsing " + url)
     let tracklist = parseTrackListFromResponseBody(body)
     
     return tracklist;
@@ -73,7 +76,7 @@ async function fetchTrackListFromUrl(url) {
   } catch (e) {
     throw { 
       url: url, 
-      message: e
+      message: e.toString()
     };
   }
 }
@@ -84,7 +87,7 @@ async function getTrackListAndMp3Url(startingData) {
       if(tracklist.length == 0) {
         throw {
           url: startingData.url,
-          error: "Tracklist is empty"
+          message: "Tracklist is empty"
         }
       }
 
@@ -107,12 +110,12 @@ async function getTrackListAndMp3Url(startingData) {
 }
 
 
-let startingData = getUrlAndDates()
 
 async function main() {
-  let shorterStartingData = startingData
-  let moreData = await Promise.all(shorterStartingData.map(startingData => getTrackListAndMp3Url(startingData) ));
-  console.log(require('util').inspect(moreData, true, 10))
+  let startingData = getUrlAndDates()
+  let trackListsAndMp3Urls = await Promise.all(startingData.map(startingData => getTrackListAndMp3Url(startingData) ));
+  
+  fs.writeFileSync("metadata.json", JSON.stringify(trackListsAndMp3Urls, null, 2));
 }
 
 main()
