@@ -68,7 +68,7 @@
         "artist": "The Blood Brothers"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/04/06/pos_ruining_the_current_20130406_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/04/06/pos_ruining_the_current_20130406_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/04/13",
@@ -123,7 +123,7 @@
         "artist": "Clipse"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/04/13/pos_ruining_the_current_20130413_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/04/13/pos_ruining_the_current_20130413_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/04/20",
@@ -182,7 +182,7 @@
         "artist": "Juggaknots"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/04/20/pos_ruining_the_current_20130420_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/features/2013/04/19/pos_ruining_the_current_20130420_20130419_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/04/27",
@@ -245,11 +245,11 @@
         "artist": "PJ Harvey"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/04/27/pos_ruining_the_current_20130427_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/04/29/pos_ruining_the_current_20130427_20130429_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/05/04",
-    "error": "Tracklist is empty"
+    "error": "Tracklist or mp3Url is empty"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/05/11",
@@ -296,7 +296,7 @@
         "artist": "To See More Light"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/05/11/pos_ruining_the_current_20130511_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/05/13/pos_ruining_the_current_20130511_20130513_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/05/18",
@@ -355,7 +355,7 @@
         "artist": "The Faint"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/05/18/pos_ruining_the_current_20130518_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/05/20/pos_ruining_the_current_20130518_20130520_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/05/25",
@@ -418,7 +418,7 @@
         "artist": "Unknown Mortal Orchestra"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/05/25/pos_ruining_the_current_20130525_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/05/24/pos_ruining_the_current_20130525_20130524_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/06/01",
@@ -493,7 +493,7 @@
         "artist": "The KLF"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/06/01/pos_ruining_the_current_20130601_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/06/03/pos_ruining_the_current_20130601_20130603_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/06/08",
@@ -568,7 +568,7 @@
         "artist": "Steve Martin and Bernadette Peters"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/06/08/pos_ruining_the_current_20130608_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/06/10/pos_ruining_the_current_20130608_20130610_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/06/15",
@@ -631,7 +631,7 @@
         "artist": "Beetlejuice"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/06/15/pos_ruining_the_current_20130615_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/06/17/pos_ruining_the_current_20130615_20130617_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/06/22",
@@ -682,7 +682,7 @@
         "artist": "The Temptations"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/06/22/pos_ruining_the_current_20130622_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/06/24/pos_ruining_the_current_20130622_20130624_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/06/29",
@@ -745,11 +745,11 @@
         "artist": "The Cloak Ox"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/06/29/pos_ruining_the_current_20130629_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/05/13/pos_ruining_the_current_20130504_20130513_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/07/06",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/07/13",
@@ -808,7 +808,7 @@
         "artist": "Roy Ayers"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/07/13/pos_ruining_the_current_20130713_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/07/15/pos_ruining_the_current_20130713_20130715_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/07/20",
@@ -871,7 +871,7 @@
         "artist": "Earl Sweatshirt"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/07/20/pos_ruining_the_current_20130720_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/07/22/pos_ruining_the_current_20130720_20130722_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/07/27",
@@ -926,7 +926,7 @@
         "artist": "Clipse"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/07/27/pos_ruining_the_current_20130727_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/04/12/pos_ruining_the_current_20130413_20130412_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/08/03",
@@ -985,62 +985,11 @@
         "artist": "The Faint"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/08/03/pos_ruining_the_current_20130803_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/05/20/pos_ruining_the_current_20130518_20130520_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/08/10",
-    "date": "2013-08-10T06:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "The Jam",
-        "artist": "A Tribe Called Quest"
-      },
-      {
-        "title": "Bring the Pain",
-        "artist": "Method Man"
-      },
-      {
-        "title": "Respiration feat. Common",
-        "artist": "Black Star"
-      },
-      {
-        "title": "NY State of Mind",
-        "artist": "Nas"
-      },
-      {
-        "title": "Lean Back",
-        "artist": "Terror Squad"
-      },
-      {
-        "title": "Iz he for real?",
-        "artist": "Redman"
-      },
-      {
-        "title": "I'll bee dat",
-        "artist": "Redman"
-      },
-      {
-        "title": "Street Talkin' Feat. Big Boi",
-        "artist": "Slick Rick"
-      },
-      {
-        "title": "Oh No",
-        "artist": "Mos Def, Pharoahe Monch and Nate Dogg"
-      },
-      {
-        "title": "Runnin",
-        "artist": "Pharcyde"
-      },
-      {
-        "title": "8 Mile",
-        "artist": "Eminem"
-      },
-      {
-        "title": "Stand Up Nucca",
-        "artist": "Joe Budden"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/08/10/pos_ruining_the_current_20130810_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/08/17",
@@ -1123,7 +1072,7 @@
         "artist": "Joe Budden"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/08/17/pos_ruining_the_current_20130817_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/08/19/pos_ruining_the_current_20130817_20130819_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/08/24",
@@ -1198,11 +1147,11 @@
         "artist": "Tripl3fastaction"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/08/24/pos_ruining_the_current_20130824_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/08/26/pos_ruining_the_current_20130820_20130826_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/08/31",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/09/07",
@@ -1257,7 +1206,7 @@
         "artist": "Deftones"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/09/07/pos_ruining_the_current_20130907_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/features/2013/04/19/pos_ruining_the_current_20130420_20130419_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/09/14",
@@ -1304,7 +1253,7 @@
         "artist": "Queen"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/09/14/pos_ruining_the_current_20130914_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/09/16/pos_ruining_the_current_20130914_20130916_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/09/21",
@@ -1355,7 +1304,7 @@
         "artist": "En Vogue"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/09/21/pos_ruining_the_current_20130921_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/09/23/pos_ruining_the_current_20130921_20130923_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/09/28",
@@ -1410,7 +1359,7 @@
         "artist": "Enya"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/09/28/pos_ruining_the_current_20130928_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/09/30/pos_ruining_the_current_20130928_2_20130930_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/10/05",
@@ -1457,7 +1406,7 @@
         "artist": "Colin Stetson"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/10/05/pos_ruining_the_current_20131005_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/05/13/pos_ruining_the_current_20130511_20130513_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/10/12",
@@ -1516,7 +1465,7 @@
         "artist": "Mista F.A.B."
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/10/12/pos_ruining_the_current_20131012_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/10/14/pos_ruining_current_20131012_20131014_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/10/19",
@@ -1575,7 +1524,7 @@
         "artist": "Roy Ayers"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/10/19/pos_ruining_the_current_20131019_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/07/15/pos_ruining_the_current_20130713_20130715_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/10/26",
@@ -1634,62 +1583,11 @@
         "artist": "Outkast"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/10/26/pos_ruining_the_current_20131026_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/10/29/pos_ruining_current_20131026_20131029_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/11/02",
-    "date": "2013-11-02T06:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Mister Kidneys",
-        "artist": "OFS Unlimited"
-      },
-      {
-        "title": "Back in Your Black",
-        "artist": "Barbones"
-      },
-      {
-        "title": "Take Me to the Backseat",
-        "artist": "The Donnas"
-      },
-      {
-        "title": "Metal Fingers in My Body",
-        "artist": "Add N to X"
-      },
-      {
-        "title": "Goodbye Sadness",
-        "artist": "Astrud Gilberto"
-      },
-      {
-        "title": "Wait a Minute",
-        "artist": "Eddie Ray"
-      },
-      {
-        "title": "Lugsteuring",
-        "artist": "Fokofpikisiekar"
-      },
-      {
-        "title": "I Want You",
-        "artist": "Joan Jett and the Blackhearts"
-      },
-      {
-        "title": "Children of Fools",
-        "artist": "Belt of Vapor"
-      },
-      {
-        "title": "Monkey I'm Your Man",
-        "artist": "Verbena"
-      },
-      {
-        "title": "There Ain't No Grave",
-        "artist": "Scott Lucas and the Married Men"
-      },
-      {
-        "title": "Easy",
-        "artist": "Eagles of Death Metal"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/11/02/pos_ruining_the_current_20131102_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/11/09",
@@ -1748,7 +1646,7 @@
         "artist": "The Boss"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/11/09/pos_ruining_the_current_20131109_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/11/11/pos_ruining_current_20131109_20131111_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/11/16",
@@ -1803,70 +1701,15 @@
         "artist": "David Bowie"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/11/16/pos_ruining_the_current_20131116_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/11/18/pos_ruining_current_20131116_20131118_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/11/23",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/11/30",
-    "date": "2013-11-30T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Teardrop",
-        "artist": "Massive Attack"
-      },
-      {
-        "title": "The Boy Is Mine",
-        "artist": "Brandy and Monica"
-      },
-      {
-        "title": "No No No",
-        "artist": "Destiny's Child"
-      },
-      {
-        "title": "I Get Lonely",
-        "artist": "Janet Jackson"
-      },
-      {
-        "title": "Turn It Up (remix)",
-        "artist": "Busta Rhymes"
-      },
-      {
-        "title": "Still Not a Player (feat. Joe)",
-        "artist": "Big Pun"
-      },
-      {
-        "title": "Stop Being Greedy",
-        "artist": "DMX"
-      },
-      {
-        "title": "Return of the G",
-        "artist": "Outkast"
-      },
-      {
-        "title": "Do for Love",
-        "artist": "2Pac"
-      },
-      {
-        "title": "Hard Knock Life",
-        "artist": "Jay-Z"
-      },
-      {
-        "title": "Intergalactic",
-        "artist": "Beastie Boys"
-      },
-      {
-        "title": "Tropicalia",
-        "artist": "Beck"
-      },
-      {
-        "title": "Save Tonight",
-        "artist": "Eagle Eye Cherry"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/11/30/pos_ruining_the_current_20131130_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/12/07",
@@ -1921,66 +1764,11 @@
         "artist": "Melvins"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/12/07/pos_ruining_the_current_20131207_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/01/02/pos_20131207_20140102_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/12/14",
-    "date": "2013-12-14T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "I Need Love",
-        "artist": "LL Cool J"
-      },
-      {
-        "title": "Protect Ya Neck",
-        "artist": "Wu Tang Clan"
-      },
-      {
-        "title": "Waves",
-        "artist": "Joey Bada$$"
-      },
-      {
-        "title": "Stay",
-        "artist": "Nas"
-      },
-      {
-        "title": "Too Many Rappers",
-        "artist": "Beastie Boys"
-      },
-      {
-        "title": "America's Most Blunted",
-        "artist": "Madvillain"
-      },
-      {
-        "title": "Beez in the Trap",
-        "artist": "Nicki Minaj"
-      },
-      {
-        "title": "Black Steel in the Hour of Chaos",
-        "artist": "Public Enemy"
-      },
-      {
-        "title": "Caught Out There",
-        "artist": "Kelis"
-      },
-      {
-        "title": "Dipset Anthem",
-        "artist": "Dipset"
-      },
-      {
-        "title": "Wild for the Night",
-        "artist": "A$AP Rocky"
-      },
-      {
-        "title": "Shabba",
-        "artist": "A$AP Ferg"
-      },
-      {
-        "title": "Money Ain't a Thing",
-        "artist": "Jay Z and JD"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/12/14/pos_ruining_the_current_20131214_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/12/21",
@@ -2039,7 +1827,7 @@
         "artist": "Suzanne Vega"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/12/21/pos_ruining_the_current_20131221_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/12/24/pos_20131224_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2013/12/28",
@@ -2086,393 +1874,63 @@
         "artist": "Queen"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2013/12/28/pos_ruining_the_current_20131228_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2013/09/16/pos_ruining_the_current_20130914_20130916_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/01/04",
-    "date": "2014-01-04T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Ghostwriter",
-        "artist": "RJD2"
-      },
-      {
-        "title": "Wildcat",
-        "artist": "Ratatat"
-      },
-      {
-        "title": "Building Steam with a Grain of Salt",
-        "artist": "DJ Shadow"
-      },
-      {
-        "title": "Answers",
-        "artist": "Madlib"
-      },
-      {
-        "title": "Dragon's Blood Resin",
-        "artist": ""
-      },
-      {
-        "title": "Exhibit C (Instrumental)",
-        "artist": "Jay Electronica/Just Blaze"
-      },
-      {
-        "title": "Waterfalls",
-        "artist": "Clams Casino"
-      },
-      {
-        "title": "All Day Breakfast",
-        "artist": "Jel"
-      },
-      {
-        "title": "Poisonville Kids No Wins (Instrumental)",
-        "artist": "El-P"
-      },
-      {
-        "title": "Diwali",
-        "artist": "Wuki"
-      },
-      {
-        "title": "Stache",
-        "artist": "Zedd"
-      },
-      {
-        "title": "Vessel",
-        "artist": "Jon Hopkins"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/01/04/pos_ruining_the_current_20140104_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/01/11",
-    "date": "2014-01-11T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Bangalore",
-        "artist": "Weiloryb"
-      },
-      {
-        "title": "Fragment",
-        "artist": "Emptyset"
-      },
-      {
-        "title": "Bewegungsablauf",
-        "artist": "S.I.N.A."
-      },
-      {
-        "title": "Hinin",
-        "artist": "Mono No Aware"
-      },
-      {
-        "title": "Zensyou 66",
-        "artist": "Ambassador 21"
-      },
-      {
-        "title": "",
-        "artist": "Kindergarten"
-      },
-      {
-        "title": "Okiko",
-        "artist": "Yura Yura"
-      },
-      {
-        "title": "Trans-neptunian Objects",
-        "artist": "Syntech-Varuna"
-      },
-      {
-        "title": "Another Monster",
-        "artist": "Converter, Asche, Morgenstern"
-      },
-      {
-        "title": "Bad Girls",
-        "artist": "Perfectionplastic"
-      },
-      {
-        "title": "Paranoid Delirium",
-        "artist": "Le Modernist"
-      },
-      {
-        "title": "Don't Believe the Hype",
-        "artist": "Boys Noize"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/01/11/pos_ruining_the_current_20140111_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/01/18",
-    "date": "2014-01-18T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Under My Thumb",
-        "artist": "The Rolling Stones"
-      },
-      {
-        "title": "Before They Make Me Run",
-        "artist": "The Rolling Stones"
-      },
-      {
-        "title": "22 Acacia Avenue",
-        "artist": "Iron Maiden"
-      },
-      {
-        "title": "Alison",
-        "artist": "Elvis Costello"
-      },
-      {
-        "title": "Don't Let Me Be Misunderstood",
-        "artist": "The Animals"
-      },
-      {
-        "title": "Downtown",
-        "artist": "Petula Clark"
-      },
-      {
-        "title": "Got My Feet on the Ground",
-        "artist": "The Kinks"
-      },
-      {
-        "title": "I'm So Bored with the USA",
-        "artist": "The Clash"
-      },
-      {
-        "title": "If I Never Get to Love You",
-        "artist": "Marianne Faithful"
-      },
-      {
-        "title": "Tell Her No",
-        "artist": "The Zombies"
-      },
-      {
-        "title": "The Look of Love",
-        "artist": "Dusty Springfield"
-      },
-      {
-        "title": "War Pigs",
-        "artist": "Black Sabbath"
-      },
-      {
-        "title": "When the Levees Break",
-        "artist": "Led Zeppelin"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/01/18/pos_ruining_the_current_20140118_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/01/25",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/02/01",
-    "date": "2014-02-01T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "No Opportunity Necessary, No Experience Needed",
-        "artist": ""
-      },
-      {
-        "title": "2112 Overture",
-        "artist": "Local H"
-      },
-      {
-        "title": "Black Cat",
-        "artist": "Gentle Giant"
-      },
-      {
-        "title": "Cat Food",
-        "artist": "King Crimson"
-      },
-      {
-        "title": "Darkness",
-        "artist": "Can der Graaf"
-      },
-      {
-        "title": "Twilight Time",
-        "artist": "The Moody Blues"
-      },
-      {
-        "title": "Kobaia",
-        "artist": "Magma"
-      },
-      {
-        "title": "L'Oumo",
-        "artist": "Osanna"
-      },
-      {
-        "title": "Locomotive Breath",
-        "artist": "Jethro Tull"
-      },
-      {
-        "title": "Lucifer Sam",
-        "artist": "Pink Floyd"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/02/01/pos_ruining_the_current_20140201_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/02/08",
-    "date": "2014-02-08T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Busted",
-        "artist": "The Black Keys"
-      },
-      {
-        "title": "Going Steady",
-        "artist": "Death From Above 1979"
-      },
-      {
-        "title": "Little Eyes",
-        "artist": "Radio Moscow"
-      },
-      {
-        "title": "Little Room",
-        "artist": "The White Stripes"
-      },
-      {
-        "title": "In the Jungle",
-        "artist": "The Vines"
-      },
-      {
-        "title": "Take It Or Leave It",
-        "artist": "The Strokes"
-      },
-      {
-        "title": "Left with Lights",
-        "artist": "Pontiak"
-      },
-      {
-        "title": "Speaking in Tongues",
-        "artist": "Eagles of Death Metal"
-      },
-      {
-        "title": "Alright, Alright (Here's my Fist, Where's the Fight?)",
-        "artist": "Sahara Hotnights"
-      },
-      {
-        "title": "Capitalism Stole My Virginity",
-        "artist": "The (International) Noise Conspiracy"
-      },
-      {
-        "title": "I Wanna Holler (But the Town's Too Small)",
-        "artist": "The Detroit Cobras"
-      },
-      {
-        "title": "I'm Not Invisible",
-        "artist": "Rocket from the Crypt"
-      },
-      {
-        "title": "In a Young Man's Mind",
-        "artist": "The Mooney Suzuki"
-      },
-      {
-        "title": "Planet of the Wolves",
-        "artist": "Guitar Wolf"
-      },
-      {
-        "title": "The Night of Wine and Roses",
-        "artist": "Japandroids"
-      },
-      {
-        "title": "Wait a Minute",
-        "artist": "The Hives"
-      },
-      {
-        "title": "Contraption/Soul Desert",
-        "artist": "Thee Oh Sees"
-      },
-      {
-        "title": "This Mystic Decade",
-        "artist": "Hot Snakes"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/02/08/pos_ruining_the_current_20140208_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/02/15",
-    "date": "2014-02-15T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Geezers need Excitement",
-        "artist": "The Streets"
-      },
-      {
-        "title": "Sticks and Stones",
-        "artist": "Jamie T"
-      },
-      {
-        "title": "Cash and Carry Me Home",
-        "artist": "Ghostpoet"
-      },
-      {
-        "title": "Do You Really Like It",
-        "artist": "DJ Pied Piper and the Masters of Ceremonies"
-      },
-      {
-        "title": "Don't Sit Down",
-        "artist": "Big Narstie"
-      },
-      {
-        "title": "Evolve or Be Extinct",
-        "artist": "Wiley"
-      },
-      {
-        "title": "Normal",
-        "artist": "Envy"
-      },
-      {
-        "title": "P's and Q's",
-        "artist": "Kano"
-      },
-      {
-        "title": "Power",
-        "artist": "RoxXxan"
-      },
-      {
-        "title": "Scrappy",
-        "artist": "Wookie"
-      },
-      {
-        "title": "Serious",
-        "artist": "El B"
-      },
-      {
-        "title": "The Streets",
-        "artist": "Rascals"
-      },
-      {
-        "title": "Woman Trouble feat. Craig David",
-        "artist": "Artful Dodger"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/02/15/pos_ruining_the_current_20140215_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/02/22",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/03/01",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/03/08",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/03/15",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/03/22",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/03/29",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/04/05",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/04/12",
@@ -2531,7 +1989,7 @@
         "artist": "Rolling Stones"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/04/12/pos_ruining_the_current_20140412_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/04/14/pos_20140412_20140414_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/04/19",
@@ -2602,11 +2060,11 @@
         "artist": "DMZ"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/04/19/pos_ruining_the_current_20140419_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/04/21/pos_20140419_20140421_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/04/26",
-    "error": "Tracklist is empty"
+    "error": "Tracklist or mp3Url is empty"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/05/03",
@@ -2689,7 +2147,7 @@
         "artist": "Bouncing Souls"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/05/03/pos_ruining_the_current_20140503_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/05/05/pos_20140503_20140505_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/05/10",
@@ -2740,7 +2198,7 @@
         "artist": "Massive Attack"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/05/10/pos_ruining_the_current_20140510_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/05/19/pos_20140510_20140519_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/05/17",
@@ -2807,7 +2265,7 @@
         "artist": "Prince"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/05/17/pos_ruining_the_current_20140517_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/05/19/pos_20140517_20140519_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/05/24",
@@ -2858,11 +2316,11 @@
         "artist": "Siriusmo"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/05/24/pos_ruining_the_current_20140524_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/05/27/pos_20140524_20140527_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/05/31",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/06/07",
@@ -2909,7 +2367,7 @@
         "artist": "DJ Slack"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/06/07/pos_ruining_the_current_20140607_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/06/09/pos_20140607_20140609_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/06/14",
@@ -2972,7 +2430,7 @@
         "artist": "Fiona Apple"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/06/14/pos_ruining_the_current_20140614_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/06/16/pos_20140614_20140616_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/06/21",
@@ -3027,7 +2485,7 @@
         "artist": "Lady Lamb the Beekeeper"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/06/21/pos_ruining_the_current_20140621_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/06/24/pos_20140621_20140624_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/06/28",
@@ -3114,15 +2572,15 @@
         "artist": "<em>Pulp Fiction</em> theme"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/06/28/pos_ruining_the_current_20140628_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/06/30/pos_20140628_20140630_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/07/05",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/07/12",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/07/19",
@@ -3181,7 +2639,7 @@
         "artist": "Boys II Men"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/07/19/pos_ruining_the_current_20140719_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/07/21/pos_ruins_the_current_20140721_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/07/26",
@@ -3228,11 +2686,11 @@
         "artist": "Jon Hopkins"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/07/26/pos_ruining_the_current_20140726_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/07/28/20140726_pos_ruining_current_20140728_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/08/02",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/08/09",
@@ -3291,7 +2749,7 @@
         "artist": "Lofticries"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/08/09/pos_ruining_the_current_20140809_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/08/11/pos_ruins_the_current_20140811_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/08/16",
@@ -3346,7 +2804,7 @@
         "artist": "Converge"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/08/16/pos_ruining_the_current_20140816_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/08/18/pos_20140816_20140818_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/08/23",
@@ -3401,11 +2859,11 @@
         "artist": "Jamie XX"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/08/23/pos_ruining_the_current_20140823_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/08/25/pos_20140823_20140825_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/08/30",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/09/06",
@@ -3464,15 +2922,15 @@
         "artist": "alt-J"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/09/06/pos_ruining_the_current_20140906_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/09/08/20140906_pos_is_ruining_the_current_20140908_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/09/13",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/09/20",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/09/27",
@@ -3515,15 +2973,15 @@
         "artist": "Housemeister"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/09/27/pos_ruining_the_current_20140927_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/09/29/pos_20140927_20140929_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/10/04",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/10/11",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/10/18",
@@ -3586,11 +3044,11 @@
         "artist": "Kid Dynamite"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/10/18/pos_ruining_the_current_20141018_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/10/20/pos_20141018_20141020_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/10/25",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/11/01",
@@ -3661,66 +3119,11 @@
         "artist": "Catching Flies"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/11/01/pos_ruining_the_current_20141101_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/11/03/20141101_pos_20141103_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/11/08",
-    "date": "2014-11-08T07:00:00.000Z",
-    "tracklist": [
-      {
-        "title": "Eyesdontlie",
-        "artist": "Machinedrum"
-      },
-      {
-        "title": "decisions",
-        "artist": "Thestand4rd"
-      },
-      {
-        "title": "Chandelier (Basecamp remix)",
-        "artist": "Sia"
-      },
-      {
-        "title": "1=1=1",
-        "artist": "Subculture Sage"
-      },
-      {
-        "title": "Sunshine",
-        "artist": "Raury"
-      },
-      {
-        "title": "Cavelier",
-        "artist": "Safia"
-      },
-      {
-        "title": "Everything We Touch (Noah Breakfast remix)",
-        "artist": "Say Lou Lou"
-      },
-      {
-        "title": "Waves feat. Vic Mensa",
-        "artist": ""
-      },
-      {
-        "title": "Dont' Wait feat. Chance The Rapper and the Social Experiment",
-        "artist": "Mapei"
-      },
-      {
-        "title": "Paris (Interlude)",
-        "artist": "Black Atlass"
-      },
-      {
-        "title": "Gorilla",
-        "artist": "Clams Casino"
-      },
-      {
-        "title": "Light Bulb (Shlohmo remix)",
-        "artist": "Perera Elsewhere"
-      },
-      {
-        "title": "King Night",
-        "artist": "Salem"
-      }
-    ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/11/08/pos_ruining_the_current_20141108_128.mp3"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/11/15",
@@ -3783,7 +3186,7 @@
         "artist": "Butthole Surfers"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/11/15/pos_ruining_the_current_20141115_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/11/17/20141115_pos_20141117_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/11/22",
@@ -3850,7 +3253,7 @@
         "artist": "Bob Dylan and Johnny Cash"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/11/22/pos_ruining_the_current_20141122_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/11/24/20141122_pos_20141124_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/11/29",
@@ -3917,15 +3320,15 @@
         "artist": "Nirvana"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/11/29/pos_ruining_the_current_20141129_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/12/02/20141129_pos_20141202_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/12/06",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/12/13",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/12/20",
@@ -3964,7 +3367,7 @@
         "artist": "Mr. Bungle"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/12/20/pos_ruining_the_current_20141220_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/12/22/pos_is_ruining_the_current_20141220_20141222_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2014/12/27",
@@ -4023,11 +3426,11 @@
         "artist": "Highend"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2014/12/27/pos_ruining_the_current_20141227_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2014/12/29/pos_is_ruining_the_current_20141227_20141229_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/01/03",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/01/10",
@@ -4074,7 +3477,7 @@
         "artist": "Porter Ray"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2015/01/10/pos_ruining_the_current_20150110_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2015/01/12/pos_is_ruining_the_current_20150110_20150112_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/01/17",
@@ -4141,11 +3544,11 @@
         "artist": "Lil Herb"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2015/01/17/pos_ruining_the_current_20150117_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2015/01/20/pos_20150117_20150120_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/01/24",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/01/31",
@@ -4208,43 +3611,43 @@
         "artist": "Flying Lotus"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2015/01/31/pos_ruining_the_current_20150131_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2015/01/26/pos_is_ruining_the_current_20150124_20150126_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/02/07",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/02/14",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/02/21",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/02/28",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/03/07",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/03/14",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/03/21",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/03/28",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/04/04",
-    "error": "Tracklist is empty"
+    "error": "TypeError: Cannot read property 'getAttribute' of null"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/04/11",
@@ -4311,7 +3714,7 @@
         "artist": "Torche"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2015/04/11/pos_ruining_the_current_20150411_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2015/04/13/pos_20150411_20150413_128.mp3"
   },
   {
     "url": "https://www.thecurrent.org/programs/pos-is-ruining-the-current/2015/04/18",
@@ -4370,6 +3773,6 @@
         "artist": "Modest Mouse"
       }
     ],
-    "mp3Url": "https://download.stream.publicradio.org/minnesota/the_current/programs/2015/04/18/pos_ruining_the_current_20150418_128.mp3"
+    "mp3Url": "http://play.publicradio.org/api-2.0.1/o/minnesota/the_current/programs/2015/04/13/pos_20150418_20150413_128.mp3"
   }
 ]

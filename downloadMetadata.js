@@ -54,23 +54,24 @@ function parseTrackListFromResponseBody(responseBody) {
   return tracklist;
 }
 
-function getMp3Url(programDate) {
-  let year = programDate.format("YYYY")
-  let month = programDate.format("MM")
-  let day = programDate.format("DD")
+function parseMp3UrlFromResponseBody(responseBody) {
+  const dom = new JSDOM(responseBody);
+  const doc = dom.window.document;
+  let mp3UrlFromPlayerElement = doc.querySelector(".js-player").getAttribute("data-src");
 
-  return `https://download.stream.publicradio.org/minnesota/the_current/programs/${year}/${month}/${day}/pos_ruining_the_current_${year}${month}${day}_128.mp3`
+  return "http:" + mp3UrlFromPlayerElement;
 }
 
-async function fetchTrackListFromUrl(url) {
+async function fetchTrackListAndMp3UrlFromUrl(url) {
   try {
     console.log("fetching " + url)
     let response = await fetch(url)
     let body = await response.text()
     console.log("parsing " + url)
     let tracklist = parseTrackListFromResponseBody(body)
+    let mp3Url = parseMp3UrlFromResponseBody(body)
     
-    return tracklist;
+    return {tracklist, mp3Url};
 
   } catch (e) {
     throw { 
@@ -82,11 +83,13 @@ async function fetchTrackListFromUrl(url) {
 
 async function getTrackListAndMp3Url(startingData) {
   try {
-      let tracklist = await fetchTrackListFromUrl(startingData.url);
-      if(tracklist.length == 0) {
+      let {tracklist, mp3Url} = await fetchTrackListAndMp3UrlFromUrl(startingData.url);
+      if(tracklist.length == 0 || mp3Url.length == 0) {
         throw {
           url: startingData.url,
-          message: "Tracklist is empty"
+          tracklist: tracklist,
+          mp3Url: mp3Url,
+          message: "Tracklist or mp3Url is empty"
         }
       }
 
@@ -94,7 +97,7 @@ async function getTrackListAndMp3Url(startingData) {
         url: startingData.url,
         date: startingData.date,
         tracklist: tracklist,
-        mp3Url: getMp3Url(startingData.date)
+        mp3Url: mp3Url
       };
 
       return data

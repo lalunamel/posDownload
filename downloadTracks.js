@@ -1,20 +1,26 @@
 const fs = require('fs');
 const request = require('request');
+const progress = require('request-progress');
 const moment = require("moment");
 
 async function downloadFile(filename, url) {
 	return new Promise((resolve, reject) => {
 		try {
 			let file = fs.createWriteStream(filename);
-			console.log("Downloading file " + filename)
-			request
-				.get(url)
+			console.log("Downloading mp3 " + filename)
+			progress(request(url, (error, response, body) => {
+				if(response.statusCode != 200) {
+					console.log("Error: got " + response.statusCode + " back from " + url)
+					resolve()
+				}
+			}))
+				.on('progress', progress => console.log("Downloading mp3 " + filename + " " + (parseInt(progress.percent * 100))))
 				.on('error', e => {
-					console.log("Error downloading file " + filename)
+					console.log("Error downloading mp3 " + filename)
 					reject(e)
 				})
-				.on('response', _ => {
-					console.log("Finished downloading file " + filename)
+				.on('end', _ => {
+					console.log("Finished downloading mp3 " + filename)
 					resolve()
 				})
 				.pipe(file)
@@ -26,12 +32,13 @@ async function downloadFile(filename, url) {
 
 async function writeTracklist(filename, tracklist) {
 	return new Promise((resolve, reject) => {
-		console.log("Writing file " + filename);
+		console.log("Writing track list " + filename);
 		let fileContents = tracklist.reduce((accum, track) => {
 			let spacing = accum.length === 0 ? "" : "\n\n";
 			return accum + spacing + track.artist + "\n" + track.title;
 		}, "");
 		let file = fs.writeFile(filename, fileContents, (err) => {
+			console.log("Finished writing track list " + filename);
 			if(err) {
 				reject(err)
 			} else {
@@ -63,13 +70,14 @@ function addFilenames(data) {
 async function main() {
 	let metadata = JSON.parse(fs.readFileSync("metadata.json")).filter(data => data.error === undefined)
 	
-	metadata = metadata.slice(0,1);
+	metadata = metadata.slice(0,5);
 
 	let filenamesAndUrls = addFilenames(metadata)
-	console.log(filenamesAndUrls)
-	// await Promise.all(filenamesAndUrls.map( item => downloadFile(item.mp3Filename, item.mp3Url) ))
-	Promise.all(filenamesAndUrls.map( item => writeTracklist(item.tracklistFilename, item.tracklist)))
-	
+	console.log(filenamesAndUrls.map(it => it.url))
+	await Promise.all(filenamesAndUrls.map( item => {
+		downloadFile(item.mp3Filename, item.mp3Url) 
+	}))
+	await Promise.all(filenamesAndUrls.map( item => writeTracklist(item.tracklistFilename, item.tracklist)))
 }
 
 main();
