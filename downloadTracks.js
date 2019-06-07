@@ -70,7 +70,7 @@ function addFilenames(data) {
 async function main() {
 	let metadata = JSON.parse(fs.readFileSync("metadata.json")).filter(data => data.error === undefined)
 	
-	metadata = metadata.slice(0,5);
+	metadata = metadata;
 
 	let filenamesAndUrls = addFilenames(metadata)
 	console.log(filenamesAndUrls.map(it => it.url))
