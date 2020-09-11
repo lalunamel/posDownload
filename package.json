@@ -6,7 +6,7 @@
   "dependencies": {
     "jsdom": "^14.0.0",
     "moment": "^2.24.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "request": "^2.88.0",
     "request-progress": "^3.0.0"
   }
